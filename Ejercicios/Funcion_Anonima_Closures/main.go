@@ -22,7 +22,7 @@ func main() {
 	fmt.Println(calculo(5, 2))
 
 	//otro ejemplo de funcion anonima
-	Operaciones()
+	operaciones()
 
 	//llamanndo a closures
 	tabla1 := 2
@@ -35,7 +35,7 @@ func main() {
 	}
 }
 
-func Operaciones() {
+func operaciones() {
 	// otra manera de crear funcion anonima
 	resultado := func() int {
 		var a int = 23
