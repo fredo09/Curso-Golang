@@ -3,7 +3,7 @@ package user
 import "time"
 
 // Modelado de un objeto de tipo Usuario
-type usuario struct {
+type Usuario struct {
 	id        int
 	nombre    string
 	edad      int
@@ -12,9 +12,9 @@ type usuario struct {
 }
 
 // Meotodo para dar de alta a usuarios
-func (t *usuario) altaUsuario(id int, nombre string, edad int, fechaAlta time.Time, estatus bool) {
-	t.id = id
-	t.nombre = nombre
-	t.fechaAlta = fechaAlta
-	t.estatus = estatus
+func (this *usuario) altaUsuario(id int, nombre string, edad int, fechaAlta time.Time, estatus bool) {
+	this.id = id
+	this.nombre = nombre
+	this.fechaAlta = fechaAlta
+	this.estatus = estatus
 }

@@ -1,17 +1,16 @@
 package main
 
 import (
+	us "./user"
 	"fmt"
-	"time"
 )
 
 /* Herencia */
-type pepe struct {
-	us.usuario
+type Pepe struct {
+	us.Usuario
 }
 
 func main() {
-	u := new(pepe)
-	u.altaUsuario(1, "Pepe", 12, time.Now(), true)
-	fmt.Println(u.usuario)
+	u := new(Pepe)
+	fmt.Println(u)
 }
