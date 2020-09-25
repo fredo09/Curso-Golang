@@ -1,0 +1,2 @@
+hola soy un archivo txt y estoy listo para ser leido en golang.
+como segundo plano.
